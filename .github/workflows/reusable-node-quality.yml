@@ -13,8 +13,8 @@ on:
 permissions:
   contents: read
 
-  jobs:
-    lint:
+jobs:
+  lint:
     name: Lint
     runs-on: ubuntu-latest
     steps:
